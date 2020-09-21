@@ -1,0 +1,22 @@
+h1 {
+    color: red;
+    font-size: 100px;
+}
+
+.green-bg {
+    background-color: green;
+}
+
+.red-bg {
+    background-color: red;
+}
+
+.circular {
+    border-radius: 100%;
+}
+
+.red-bg:hover {
+    background-color: pink;
+    transition: background-color .5s;
+    border-radius: 30%;
+}
