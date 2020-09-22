@@ -19,7 +19,7 @@ main {
 
 footer {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 0;
     background-color: #66bfbf;
     word-spacing: 2rem;
     font-weight: bolder;
