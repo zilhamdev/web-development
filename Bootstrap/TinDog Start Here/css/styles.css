@@ -1,0 +1,83 @@
+body {
+    font-family: "Montserrat";
+    font-weight: 300;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    font-weight: 400;
+    margin: 0 1rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+#title {
+    color: white;
+    background-color: #ff4c68;
+}
+
+#features {
+    position: relative;
+}
+
+#iphone-img {
+    width: 60%;
+    -webkit-transform: rotate(25deg);
+    -moz-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    -o-transform: rotate(25deg);
+    transform: rotate(25deg);
+}
+
+#logo {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 991px) {
+    #iphone-img {
+        margin: 10% auto 0 20%;
+        /* position: static; */
+        width: 60%;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    .download-btn {
+        margin: 5% 2px auto;
+    }
+
+    .navbar {
+        padding: 0 0 2.5rem;
+    }
+
+    .nav-item {
+        font-weight: 400;
+        margin: 0.2rem 1rem;
+    }
+    
+}
