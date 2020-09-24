@@ -47,17 +47,16 @@ p {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 10% 7%;
 }
 
 #title {
     color: white;
     background-color: #ff4c68;
-    padding-bottom: 3.5%;
 }
 
 #iphone-img {
-    margin-left: 6%;
+    right: 30%;
     width: 60%;
     -webkit-transform: rotate(25deg);
     -moz-transform: rotate(25deg);
@@ -79,7 +78,6 @@ p {
     background-color: white;
     padding: 7% 15%;
     position: relative;
-    z-index: 1;
 }
 
 .feature-box {
@@ -126,7 +124,6 @@ p {
     margin: 0 1.5%;
 }
 
-
 /* Pricing Section */
 
 #pricing {
@@ -138,6 +135,45 @@ p {
     padding: 3% 2%;
 }
 
+/* Call to Action section */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 10% 15% 5%;
+    color: white;
+}
+
+#cta h3 {
+    font-size: 3rem;
+}
+
+/* Footer Section */
+
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 7% 10% 5%;
+}
+
+footer ul {
+    margin-right: 3%;
+}
+
+footer li {
+    display: inline;
+    list-style: none;
+    margin: 0 6px 0;
+}
+
+.social-icon {
+    color: black;
+}
+
+.social-icon:hover {
+    color: #ff4c68;
+}
+
 /* CSS Responsive */
 
 @media screen and (max-width: 1140px) {
@@ -145,40 +181,47 @@ p {
         font-size: 3rem;
     }
 
+    h2 {
+        font-size: 2.5rem;
+    }
+
     #iphone-img {
-        margin-left: 20%;
+        right: 10%;
         width: 60%;
         -webkit-transform: rotate(0deg);
         -moz-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
         -o-transform: rotate(0deg);
         transform: rotate(0deg);
-        position: relative;
     }
-
 }
-
-
 
 @media screen and (max-width: 991px) {
     #iphone-img {
-        margin-top: 7%;
-        margin-left: auto;
+        position: static;
+        margin: 7% auto 0;
         width: 50%;
         -webkit-transform: rotate(0deg);
         -moz-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
         -o-transform: rotate(0deg);
         transform: rotate(0deg);
-        position: relative;
-    }
-
-    h1 {
-        font-size: 3rem;
     }
 
     #title {
         text-align: center;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    #cta h3 {
+        font-size: 2rem;
+    }
+
+    .container-fluid {
+        padding: 3% 15% 7%;
     }
 
     .download-btn {
