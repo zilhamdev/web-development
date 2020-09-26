@@ -143,10 +143,6 @@ p {
 
 /* Pricing Section */
 
-#pricing {
-    padding: 5rem;
-}
-
 .price-text {
     font-size: 3rem;
     line-height: 1.5;
@@ -259,7 +255,12 @@ footer a {
         font-size: 1.5rem;
     }
 
-    #pricing {
-        padding: 5rem 2rem;
+    #cta .big-heading {
+        font-size: 2rem;
     }
+
+    .price-text {
+        font-size: 1.7rem;
+    }
+
 }
