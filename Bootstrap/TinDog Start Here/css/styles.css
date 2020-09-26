@@ -245,7 +245,7 @@ footer a {
 
 }
 
-@media screen and(max-width: 360px){
+@media screen and(max-width: 415px){
     .big-heading {
         font-size: 2rem;
     }
