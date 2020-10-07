@@ -1,0 +1,14 @@
+{
+  "name": "reactweb",
+  "version": "1.0.0",
+  "description": "my first react web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zikri ilham ramadhan",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1"
+  }
+}
